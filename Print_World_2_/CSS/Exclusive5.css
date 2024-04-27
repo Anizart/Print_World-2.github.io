@@ -1,0 +1,13 @@
+.die__img{
+    
+    width: 440px;
+    height: 409px;
+    background: url( ../Images/brendirovannye-ruchki.png ) center /contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

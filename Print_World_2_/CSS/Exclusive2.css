@@ -1,0 +1,13 @@
+.die__img{
+    
+    width: 328px;
+    height: 418px;
+    background: url( ../Images/Folded+Leaflets.png ) center/contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

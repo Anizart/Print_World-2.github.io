@@ -1,0 +1,13 @@
+.die__img{
+    
+    width: 219px;
+    height: 302px;
+    background: url( ../Images/блокнот.png ) center/contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

@@ -1,0 +1,103 @@
+.offer{
+
+    max-width: 539px;
+    height: 354px;
+    position: relative;
+    z-index: 5;
+    margin: 78px 0;
+}
+
+.title{
+
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    margin-bottom: 21px;
+}
+
+.alltex{
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 29px;
+}
+
+.link{
+
+    display: inline-block;
+    font-size: 18px;
+    padding: 20px 32.5px;
+    border-radius: 34px;
+    background-color: #65E500;
+}
+
+.link:hover{ box-shadow: 0 8px 35px #63e500d0; }
+
+/*+ Картинка */
+
+.back_img{
+
+    width: 886px;
+    height: 475px;
+    background: url( ../Images/готовая\ для\ u.png ) no-repeat;
+    position: absolute;
+    bottom: 0px;
+    right: -800px;
+    z-index: -1;
+}
+
+/*+ /Картинка */
+
+@media ( max-width: 1060px ) {
+
+    .offer{
+        margin: 60px 0 40px 0;
+    }
+
+    .title{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .alltex{
+
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    .link{
+
+        font-size: 16px;
+        padding: 15px 25px;
+    }
+}
+
+@media ( max-width: 620px ) {
+
+    .back_img{
+
+        height: 400px;
+        opacity: 0.3;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}
+
+@media ( max-width: 420px ) {
+
+    .title{
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .alltex{
+
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+}

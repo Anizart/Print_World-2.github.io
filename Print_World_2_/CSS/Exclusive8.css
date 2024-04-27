@@ -1,0 +1,14 @@
+.die__img{
+    
+    width: 248px;
+    height: 409px;
+    transform: scale3d(1, 1, 1);
+    background: url( ../Images/pechat-zhurnalov-02.png ) center/contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

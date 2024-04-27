@@ -1,0 +1,15 @@
+.die__img{
+    
+    width: 468px;
+    height: 415px;
+    background: url( ../Images/Готова.png ) center no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        
+        width: 150px;
+        height: 210px;
+    }
+}

@@ -1,0 +1,13 @@
+.die__img{
+    
+    width: 218px;
+    height: 409px;
+    background: url( ../Images/orig.webp ) center/contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

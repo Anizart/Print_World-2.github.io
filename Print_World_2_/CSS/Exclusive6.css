@@ -1,0 +1,16 @@
+.die__img{
+    
+    width: 218px;
+    height: 409px;
+    transform: scale3d(1.5, 1.5, 1.5);
+    background: url( ../Images/го.png ) center/contain no-repeat;
+
+    margin: 0 18px;
+}
+
+@media ( max-width: 1140px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

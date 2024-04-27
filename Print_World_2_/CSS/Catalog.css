@@ -1,0 +1,250 @@
+.catalog .container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content__wrap{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 88px 30px;
+    margin-bottom: 88px;
+}
+
+.header{
+    
+    margin-bottom: 190px; }
+
+.wrap__die{
+
+    width: 270px;
+    height: 409px;
+    overflow: hidden;
+    perspective: 400px;
+}
+
+.wrap__die:hover{
+
+    transition-duration: 0.4s;
+    transform: scale3d(1.009, 1.009, 1.009);
+}
+
+.segment1{
+
+    width: 270px;
+    height: 348px;
+    border-radius: 18px 18px 0 0;
+    background: linear-gradient( 145deg, #65E500, #E1E500 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 400px;
+}
+
+.segment2{
+
+    width: 270px;
+    height: 61px;
+    border-radius: 0 0 18px 18px;
+    background-color: #000000d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segment2__text{
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.segment1_1__img{
+
+    width: 228px;
+    height: 313px;
+    background: url( ../Images/блокнот.png ) no-repeat;
+}
+
+.segment1_2__img{
+
+    width: 270px;
+    height: 313px;
+    background: url( ../Images/Folded+Leaflets.png ) center/contain no-repeat;
+}
+
+.segment1_3__img{
+
+    width: 270px;
+    height: 458px;
+    background: url( ../Images/Готова.png ) center no-repeat;
+}
+
+.segment1_4__img{
+
+    width: 440px;
+    height: 409px;
+    background: url( ../Images/1_1.png ) -5px center/contain no-repeat;
+}
+
+.segment1_4__img:hover{
+
+    transition-duration: 0.5s;
+    transform: scale3d(1.5, 1.5, 1.5)
+}
+
+.segment1_5__img{
+
+    width: 284px;
+    height: 409px;
+    background: url( ../Images/brendirovannye-ruchki.png ) center/contain no-repeat;
+}
+
+.segment1_6__img{
+
+    width: 548px;
+    height: 509px;
+    background: url( ../Images/го.png ) center/contain no-repeat;
+}
+
+.segment1_7__img{
+
+    width: 258px;
+    height: 509px;
+    background: url( ../Images/14_\(1\).png ) center/contain no-repeat;
+}
+
+.segment1_8__img{
+
+    width: 258px;
+    height: 509px;
+    background: url( ../Images/pechat-zhurnalov-02.png ) center/contain no-repeat;
+}
+
+.segment1_9__img{
+
+    width: 218px;
+    height: 409px;
+    background: url( ../Images/orig.webp ) center/contain no-repeat;
+}
+
+.segment1_1__img:hover, .segment1_2__img:hover, .segment1_3__img:hover,
+.segment1_5__img:hover, .segment1_6__img:hover, .segment1_7__img:hover,
+.segment1_8__img:hover, .segment1_9__img:hover{
+
+    transition-duration: 0.5s;
+    transform: scale3d(1.05, 1.05, 1.05);
+}
+
+/* FORM */
+
+.blur{
+    
+    max-width: 970px;
+    width: 100%;
+    height: 625px;
+    background-color: #ffffff0e;
+    backdrop-filter: blur( 25px );
+    border-radius: 29px;
+    margin-bottom: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+
+    max-width: 772px;
+    width: 100%;
+    height: 489px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.input{
+
+    max-width: 768px;
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    border: 1.9px solid #65E500;
+    border-radius: 12px;
+    background: transparent;
+    padding: 13px 26px;
+}
+
+.input:focus,
+.text_ar:focus{ box-shadow: 0 0 8px #65E500 inset; }
+
+.text_ar{
+
+    max-width: 768px;
+    width: 100%;
+    height: 104px;
+    color: #fff;
+    font-size: 16px;
+    border: 1.9px solid #65E500;
+    border-radius: 12px;
+    background: transparent;
+    padding: 14px 26px;
+}
+
+.btn_wrap{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.reset{
+
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #65E500;
+    border-radius: 34px;
+    padding: 9px 34px;
+}
+
+.done{
+
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    background-color: #65E500;
+    border-radius: 34px;
+    padding: 9px 48px;
+}
+
+.reset:hover,
+.done:hover{
+
+    transition: all 0.8s;
+    box-shadow: 0 0 61px 8px rgba(161, 230, 1, 0.452);
+    background: linear-gradient( to right, #65E500, #E1E500 );
+}
+
+@media ( max-width: 899px ) {
+    
+    .content__wrap{
+        justify-content: center;
+    }
+
+}
+
+@media ( max-width: 400px ) {
+    
+    .btn_wrap{
+
+        display: flex;
+        flex-direction: column-reverse;
+        row-gap: 35px;
+    }
+
+}

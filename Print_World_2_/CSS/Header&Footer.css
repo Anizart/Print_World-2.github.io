@@ -1,0 +1,417 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,*:before,*:after{
+
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active{outline: none}
+a:focus,a:active{outline: none}
+
+nav,footer,header,aside{ display: block; }
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{ font-family: inherit; }
+
+input::-ms-clear{ display: none; }
+button{cursor: pointer;}
+button::-moz-focus-inner { padding:0; border:0; }
+a, a:visited{ text-decoration: none; }
+a:hover{ text-decoration: none; }
+ul li{ list-style: none; }
+img{ vertical-align: top; }
+
+h1,h2,h3,h4,h5,h6{ font-size:inherit;font-weight: 400; }
+
+*{ font-family: 'Montserrat', sans-serif; }
+
+::-webkit-scrollbar{ width: 10px; }
+
+::-webkit-scrollbar-track{ background-color: #20163E; }
+
+::-webkit-scrollbar-thumb{
+
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover{ background: linear-gradient( 145deg, #65E500, #E1E500 ); }
+
+.wrapper{
+
+    min-height: 100%;
+    width: 100%;
+    background-color: #20163E;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+
+    max-width: 1171px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+/*+ HEADER */
+
+.header{
+
+    position: relative;
+    z-index: 100;
+}
+
+.header__wrap {
+
+    height: 58px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 53px;
+}
+
+.menu ul{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 64px;
+}
+
+.wrap{ 
+
+    max-width: 297px;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header__logo{
+
+    width: 58px;
+    height: 58px;
+    border-radius: 12px;
+    background-color: #65E500;
+    box-shadow: 0 0 58px 4px #65E500;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__img{
+    
+    width: 48px;
+    height: 48px;
+    background: url(../Images/print_1.png) 0 0/contain no-repeat;
+}
+
+.text-logo{
+
+    color: #fff;
+    font-size: 27px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+
+.menu__link{
+    
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 48px;
+}
+
+.menu__link:hover{
+
+    color: #65E500;
+    line-height: 23px;
+    border-bottom: 1px solid #65E500;
+}
+
+/*+ вот бургер */
+.header__burger-btn{
+
+    display: none;
+    width: 24px;
+    height: 21px;
+    border: none;
+    background: url(../Images/Меню\ Бургер.png);
+    position: relative;
+    top: 90px;
+}
+
+.burger__list{ text-align: center }
+
+.burger__item .burger__link{
+
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    padding: 7.5px 0;
+}
+
+.ob.open .burger{ display: block; }
+
+
+.Wtel{
+
+    max-width: 226px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.header__tel{
+
+    width: 51px;
+    height: 51px;
+    background: url(../Images/Mask\ group.png) 0 0/contain no-repeat;
+}
+
+.header__tel-num{
+
+    color: #fff;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/*+ CONTENT */
+
+.content{
+    
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+    position: relative;
+}
+
+/*+ FOOTER */
+
+.footer{
+
+    width: 100%;
+    min-height: 94px;
+    padding: 15px 15px 0 15px;
+    background-color: #212121b9;
+    display: flex;
+    justify-content: center;
+}
+
+.w{ display: flex; }
+
+.footer__wrap{
+
+    max-width: 1164px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo{
+
+    width: 71px;
+    height: 71px;    
+    border-radius: 14px;
+    background-color: #65E500;
+    margin-right: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-logo__img{
+
+    width: 58.76px;
+    height: 58.76px;
+    background: url(../Images/print_1.png) 0 0/contain no-repeat;
+}
+
+.footer__link{
+
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.footer__link:hover{ color: #65E500; }
+
+.footer__text{
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.masseg{ display: flex; }
+
+.footer__VK{
+
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background: url( ../Images/VK.png ) center;
+    margin-right: 24px;
+}
+
+.footer__Telegram{
+
+    width: 56px;
+    height: 56px;
+    border-radius: 50px;
+    background: url( ../Images/tg.png ) center;
+}
+
+@media ( max-width: 1060px ) {
+
+    .header__wrap{
+
+        justify-content: end;
+    }
+
+    .Wtel{
+        margin-left: 15px;
+    }
+
+    .header__burger-btn {
+        display: block;
+    }
+
+    .menu{
+
+        width: 118px;
+        height: 120px;
+        display: block;
+        background-color: #212121;
+        padding: 7.5px 15px 7.5px 15px;
+        margin-top: 150px;
+        position: absolute;
+        left: -118px;
+        z-index: 100;
+        transition: transform .5s;
+    }
+
+    .menu ul{
+
+        display: flex;
+        flex-direction: column;
+        column-gap: 12px;
+        margin-left: 0px;
+    }
+
+    .menu__link{
+        
+        display: block;
+        margin: 0;
+    }
+
+    .header.open .menu{
+
+        transform: translateX( 100% );
+    }
+
+    .menu ul li{
+        margin-bottom: 10px;;
+    }
+}
+
+@media ( max-width: 720px ) {
+
+    .text-logo{
+        font-size: 18px;
+    }
+    .header__tel-num{
+        font-size: 14px;
+    }
+}
+
+@media ( max-width: 600px ) {
+
+    .header__tel{
+        display: none;
+    }
+
+    .footer{
+
+        margin-top: 50px;
+        padding: 18px 0;
+    }
+
+    .footer__wrap{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__text{
+        order: 1;
+    }
+
+    .footer__logo{
+
+        display: none;   
+    }
+
+    .w{
+        margin-bottom: 15px;
+    }
+
+    .masseg{
+        margin-bottom: 15px;
+    }
+    .masseg > * {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media ( max-width: 550px ) {
+
+    .header__wrap{
+
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__burger-btn{
+        top: 90px;
+    }
+
+    .wrap{
+
+        margin-right: -70px;
+        margin-bottom: 18px;
+    }
+    .Wtel{
+        margin-right: -8px;
+    }
+
+    .header__tel-num{
+        margin-left: -55px;
+    }
+}

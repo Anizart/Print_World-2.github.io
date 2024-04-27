@@ -1,0 +1,16 @@
+.die__img{
+    
+    width: 440px;
+    height: 409px;
+    transform: scale3d(1.5, 1.5, 1.5);
+    background: url( ../Images/1_1.png ) -8px 101px /contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+
+        width: 158px;
+        background: url( ../Images/1_1.png ) center /contain no-repeat;
+    }
+}

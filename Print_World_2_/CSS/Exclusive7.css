@@ -1,0 +1,14 @@
+.die__img{
+    
+    width: 448px;
+    height: 409px;
+    transform: scale3d(1.1, 1.1, 1.1);
+    background: url( ../Images/14_\(1\).png ) -8.5px center/contain no-repeat;
+}
+
+@media ( max-width: 700px ) {
+
+    .die__img{
+        width: 158px;
+    }
+}

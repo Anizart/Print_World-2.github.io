@@ -1,0 +1,181 @@
+.content{
+    
+    flex-direction: column;
+    align-items: normal;
+}
+
+.content__text{
+
+    max-width: 862px;
+    height: 64px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    margin: 80px 0 60px 0;
+}
+
+.color{ color: #65E500; }
+
+.content__wrap{
+
+    width: 402px;
+    height: 295px;
+    margin: 0 0 80px 100px;
+    position: relative;
+    z-index: 18;
+}
+
+.wrap__text{
+
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.wrap__in1{
+
+    width: 84px;
+    height: 84px;
+    background: url( ../Images/Mask_group.png ) 0 0/contain no-repeat;
+    margin-left: 41px;
+}
+
+.wrap__in2{
+
+    width: 84px;
+    height: 84px;
+    background: url( ../Images/Mask\ group\ \(1\).png ) center/contain no-repeat;
+    margin-left: 59px;
+}
+
+.wrap__num{
+
+    color: #65E500;
+    font-size: 24px;
+    margin-left: 9px;
+}
+
+.wrap__block{ 
+    
+    display: flex;
+    align-items: center;
+}
+
+.wrap__Num{
+
+    display: flex;
+    align-items: center;
+}
+
+.VK{ margin-bottom: 35px; }
+
+.TG{ margin-bottom: 63px; }
+
+.wrap__block:hover{
+
+    transition-duration: 0.4s;
+    transform: scale3d( 1.04, 1.04, 1.04 );
+}
+
+.back_img{
+
+    width: 541px;
+    height: 333px;
+    display: block;
+    transform: rotate( -90deg );
+    position: absolute;
+    left: 680px;
+    top: -110px;
+    z-index: -1;
+    background: url( ../Images/1685055944_gagaru-club-p-razlitaya-kraska-krasivo-32.png ) 0 0/contain no-repeat;
+}
+
+@media ( max-width: 990px ) {
+
+    .back_img{
+
+        left: 600px;
+        top: -38px;
+    }
+}
+
+@media ( max-width: 920px ) {
+
+    .back_img{
+
+        opacity: 0.5;
+
+        transform: rotate( -20deg );
+        left: 220px;
+        top: -28px;
+    }
+}
+
+@media ( max-width: 886px ) {
+
+    .back_img{
+
+        top: -88px;
+    }
+
+    .content__wrap{
+        margin-bottom: 0px;
+    }
+
+    .content__text{
+
+        font-size: 16px;
+        margin-bottom: 90px;
+    }
+    .content__wrap p{
+
+        font-size: 16px;
+    }
+
+    .wrap__in1,
+    .wrap__in2{
+
+        width: 54px;
+        height: 54px;
+
+        margin-left: 31px;
+    }
+    .wrap__in2{
+        margin-left: 44px;
+    }
+
+}
+
+@media ( max-width: 660px ) {
+
+    .content__wrap{
+        margin-left: 0px;
+    }
+}
+
+@media ( max-width: 499px ) {
+
+    .content__text{
+        margin-bottom: 100px;
+    }
+}
+
+@media ( max-width: 397px ) {
+
+    .content__text{
+        margin-bottom: 170px;
+    }
+}
+
+@media ( max-width: 360px ) {
+
+    .back_img{
+
+        opacity: 0.4;
+
+        transform: rotate( -120deg );
+        left: 60px;
+        top: -28px;
+    }
+}
